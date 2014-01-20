@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Golden Ratio</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <section class="row main">
+      <div class="emblem small-3 small-centered columns">
+        <h3 class="boom text-center"><strong>T</strong>he<strong>G</strong>olden<strong>R</strong>atio</h3>
+      </div>
+    </section>
+    <hr>
+  <div class="small-12 large-6 large-centered columns">
+    <div class="row">
+        <div class="small-12 large-2 small-centered columns">
+          <p class="title">Grams or Ounces?</p class="title">
+          <select name="units" id="unitSelect">
+            <option value="1">Grams</option>
+            <option value="0.035274">Ounces</option>
+          </select>
+        </div>
+    </div>
+    <section class="row">
+      <div class="small-12 large-2 small-centered columns">
+        <p class="title">Desired ratio<p class="title">
+          <select name="ratios" id="ratioSelect">
+            <option value="11">11:1</option>
+            <option value="15">15:1</option>
+            <option value="20">20:1</option>
+          </select>
+      </div>
+    </section>
+    <section class="row">
+      <div class="small-12 columns">
+          <p class="title">Total weight of beans<!-- (grams or ounces, it's all good) -->:</p class="title">
+          <input type="text" placeholder="" id="quantityInput">
+      </div>
+    </section>
+    <section class="row">
+      <div class="small-6 small-centered columns">
+        <a href="#" data-reveal-id="mod" class="button large" id="calc">Go!</button></a>
+      </div>
+    </section>
+    <section class="row">
+      <div id="mod" class="reveal-modal" data-reveal>
+        <h4 class="text-center">For a wonderful cup of Coffee add:</h4>
+        <h5 class="text-center"><span class="output"></span> <span class="units"></span> of water, with an extraction time of...</h5><br>
+        <h6>
+          <h1><time>00:00:00</time></h1>
+          <a href="#" class="button" id="start">start</a>
+          <a href="#" class="button" id="stop">stop</a>
+          <a href="#" class="button" id="clear">clear</a>
+        </h6>
+      </div>
+    </section>
+  </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.reveal.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

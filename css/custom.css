@@ -1,0 +1,117 @@
+body{
+      /*background-image: url('../img/old_map.png');*/
+    }
+    #quantityInput::-webkit-input-placeholder { 
+      font-size: 95%;
+      /*font-style: italic;*/
+    }
+    #start{
+      color: black;
+      background-color: #FFBC43;
+      border-color: black;
+    }
+    select {
+    padding:3px;
+    margin: 0;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #FFBC43;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+input, textarea, select {
+  color: #FFBC43;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1.4em;
+  padding: 5px 2px;
+  color: black;
+  display: block;
+  background: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 3px solid #FFF;
+  -moz-box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.4);
+  -webkit-box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.4);
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0, 0.4);
+  margin-bottom: 20px;
+}
+
+select:focus {
+  outline: none;
+}
+select:hover{
+  outline: none;
+  background: white;
+  border: 3px solid #FFBC43;
+}
+input:hover{
+  background: white;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-style: italic;
+}
+ textarea:focus, .md-form label:active + input, .md-form label:active + textarea {
+  outline: none;
+  border: 3px solid #FFBC43;
+}
+.title {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: black;
+}
+    .emblem{
+    background-color: #FFBC43;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 5px;
+    display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+    }
+    .main{
+    background-color: black;
+    }
+    .full{
+      background-color: #FD7279;
+      height: 1px;
+      margin-bottom: 10px;
+    }
+    @media 
+    (-webkit-min-device-pixel-ratio: 1.25), 
+    (min-resolution: 120dpi){ 
+        body{
+      }
+    }
+
+    /* 1.3 dpr */
+    @media 
+    (-webkit-min-device-pixel-ratio: 1.3), 
+    (min-resolution: 124.8dpi){ 
+        body{
+      }
+    }
+
+    /* 1.5 dpr */
+    @media 
+    (-webkit-min-device-pixel-ratio: 1.5), 
+    (min-resolution: 144dpi){ 
+        body{
+      }
+    }
